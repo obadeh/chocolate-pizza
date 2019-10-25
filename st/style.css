@@ -187,3 +187,28 @@ input:checked {
   text-align: center;
 }
 
+#fancyHr hr {
+  padding: 0px;
+  border: none;
+  border-top: medium solid #e0dcdc;
+  text-align: center;
+}
+
+#fancyHr hr::after {
+  content: url('../img/small-logo.png');
+  display: inline-block;
+  position: relative;
+  top: -1em;
+}
+
+footer h4 {
+  margin-bottom: 8px;
+  font-family: 'Noto Serif', serif;
+}
+
+footer h6 {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  color: #ccc;
+}
